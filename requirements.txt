@@ -1,0 +1,9 @@
+numpy==1.26.4
+ultralytics==8.1.14
+opencv-python==4.9.0.80
+cvzone==1.6.1
+filterpy==1.4.5
+lap==0.4.0
+torch==2.3.0
+torchvision==0.18.0
+scikit-image== 0.25.2

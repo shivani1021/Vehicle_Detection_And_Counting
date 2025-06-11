@@ -14,7 +14,7 @@ cap = cv2.VideoCapture("cars.mp4", cv2.CAP_FFMPEG )
 model = YOLO('yolov8n.pt')
 
 # Define the class names that the model can detect
-className =className = [
+className = [
     "person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck",
     "boat", "traffic light", "fire hydrant", "stop sign", "parking meter", "bench",
     "cat", "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe",
@@ -146,7 +146,7 @@ while True:
     cv2.imshow("Vehicle Detection & Counting", frame)
     
     # cv2.imshow("imgRegion", imgRegion)
-    if cv2.waitKey(0)  & 0xFF == ord('q'):
+    if cv2.waitKey(1)  & 0xFF == ord('q'):
         break
 
             
